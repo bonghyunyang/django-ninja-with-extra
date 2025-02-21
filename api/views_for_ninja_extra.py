@@ -9,7 +9,7 @@ def add(request, a: int, b: int):
     return {"result": a + b}
 
 
-# class based definition
+# class based def
 @api_controller
 class MathAPI:
 
